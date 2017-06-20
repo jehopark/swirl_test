@@ -1,0 +1,17 @@
+- Class: meta
+  Course: My Course
+  Lesson: My Lesson
+  Author: Jeho Park
+  Type: Standard
+  Organization: Harvey Mudd College
+  Version: 2.4.3
+
+- Class: text
+  Output: This is a test swirl.
+    
+- Class: figure
+  Output: Here is a diagram showing the relationship between a population and a sample.
+  Figure: mod1_pop_vs_samp.R
+  FigureType: new
+
+

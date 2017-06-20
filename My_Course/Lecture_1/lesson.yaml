@@ -1,0 +1,68 @@
+- Class: meta
+  Course: Swirl
+  Lesson: Lecture 1
+  Author: Talithia Williams
+  Type: Standard
+  Organization: Great Courses
+  Version: 2.4.3
+
+
+- Class: text
+  Output: This is what it's like to be "statistically literate" and understand data... like a statistician.  It's more than just reciting facts from the past.
+
+- Class: text
+  Output:  To truly appreciate statistical information, we have to understand the language (and assumptions) of statistics -- and how to "reason" in the face of uncertainty.
+
+- Class: text
+  Output: In effect, we've got to become masters at the art of learning from data, which has TWO sides
+
+- Class: text
+  Output: accurately DESCRIBING and SUMMARIZING the data we have 
+
+- Class: text
+  Output: AND going BEYOND the data we have making inferences about data we DON'T have
+
+- Class: text
+  Output:  Statistics is BOTH descriptive AND inferential.
+
+- Class: text
+  Output:  OK, so, what IS "statistics"?  Well, formally... Statistics is a branch of mathematics...But it's also a science (much like biology or physics)**. It involves...
+
+- Class: text
+  Output: collection of data, analysis of data working with data, interpretation of data, to reach conclusions, and presentation of data
+
+- Class: text
+  Output: Think of statistics as a way to get information from data.
+
+- Class: text
+  Output: There was an experiment some years ago that recorded how much chickens grew when given different types of feed.  
+  
+- Class: text
+  Output: Newly hatched chicks were randomly put into six groups, and each group was given a different feed supplement.
+
+- Class: cmd_question
+  Output: Type the following at the console library(datasets)
+  CorrectAnswer: library(datasets)
+  AnswerTests: omnitest(correctExpr='library(datasets)')
+  Hint: Type library(datasets)
+  
+- Class: cmd_question
+  Output: Type the following at the console data(chickwts)
+  CorrectAnswer: data(chickwts)
+  AnswerTests: omnitest(correctExpr='data(chickwts)')
+  Hint: Type data(chickwts)
+  
+- Class: cmd_question
+  Output: Load the chickwts dataset.
+  CorrectAnswer: chickwts
+  AnswerTests: omnitest(correctExpr='chickwts')
+  Hint: Type chickwts to load the data.
+  
+- Class: cmd_question
+  Output: Create a boxplot of the chickwts dataset.
+  CorrectAnswer: boxplot(chickwts)
+  AnswerTests: omnitest(correctExpr='boxplot(chickwts)')
+  Hint: Type boxplot(chickwts) to generate a boxplot of the data.
+
+- Class: text
+  Output: "As you can see from the boxplot:':,... the chickwts data set has only two variables"
